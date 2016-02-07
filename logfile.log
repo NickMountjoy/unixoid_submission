@@ -3808,3 +3808,47 @@ Here is the command output:
 
 
 I, [2016-02-07T08:05:42.767872 #1798]  INFO -- : 
+I, [2016-02-07T08:15:21.309243 #1833]  INFO -- : ..............
+
+Finished in 0.01344 seconds (files took 0.09025 seconds to load)
+14 examples, 0 failures
+
+
+I, [2016-02-07T08:15:38.919250 #1833]  INFO -- : {
+  "message": "Validation Failed",
+  "errors": [
+    {
+      "resource": "Repository",
+      "code": "custom",
+      "field": "name",
+      "message": "name already exists on this account"
+    }
+  ],
+  "documentation_url": "https://developer.github.com/v3/repos/#create"
+}
+
+I, [2016-02-07T08:15:38.925294 #1833]  INFO -- : /usr/local/bin/git
+
+I, [2016-02-07T08:15:38.930921 #1833]  INFO -- : nick.mountjoy98@gmail.com
+
+I, [2016-02-07T08:15:38.936169 #1833]  INFO -- : NickMountjoy
+
+I, [2016-02-07T08:15:38.943371 #1833]  INFO -- : Reinitialized existing Git repository in /Users/Rude1977/temp/.git/
+
+I, [2016-02-07T08:15:38.949634 #1833]  INFO -- : 
+E, [2016-02-07T08:15:38.960645 #1833] ERROR -- : Command 'git commit -m 'Unixoid submission' 2>/dev/null' returned 1. Expected 0
+Here is the command output:
+
+On branch master
+Changes not staged for commit:
+	modified:   logfile.log
+	modified:   my/private (untracked content)
+
+no changes added to commit
+
+I, [2016-02-07T08:15:38.967022 #1833]  INFO -- : 
+E, [2016-02-07T08:15:39.653557 #1833] ERROR -- : Command 'git push --force -u origin master 2>/dev/null' returned 128. Expected 0
+Here is the command output:
+
+
+I, [2016-02-07T08:15:39.661939 #1833]  INFO -- : 
